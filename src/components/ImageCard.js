@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 const ImageCard = ({ image, handleCheck, checked, isDragging, overlay }) => {
-  const isChecked = checked.includes(image?.id.toString());
+  const isSelected = checked.includes(image?.id.toString());
 
   useEffect(() => {
     const handleCheckboxMouseDown = (event) => {
@@ -26,9 +26,9 @@ const ImageCard = ({ image, handleCheck, checked, isDragging, overlay }) => {
         className={`absolute h-full w-full bg-black/40 flex items-center transition-all duration-300 justify-center   ${
           isDragging || overlay ? "" : "group-hover:opacity-100"
         }  ${
-          isDragging && isChecked
+          isDragging && isSelected
             ? "opacity-0"
-            : isChecked
+            : isSelected
             ? "opacity-40"
             : "opacity-0"
         }`}
@@ -50,10 +50,10 @@ const ImageCard = ({ image, handleCheck, checked, isDragging, overlay }) => {
             className={`absolute top-2 left-3  ${
               !overlay ? "group-hover:block" : ""
             } cursor-pointer z-50 ${
-              isChecked && !overlay ? "block" : "hidden"
+              isSelected && !overlay ? "block" : "hidden"
             }`}
             id={`checkbox-${image?.id}`}
-            checked={isChecked}
+            checked={isSelected}
             onChange={handleCheck}
             value={image?.id}
           />

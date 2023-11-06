@@ -42,7 +42,7 @@ const ImageGallery = () => {
               {totaSelected} {totaSelected > 1 ? "Files" : "File"} Selected
             </p>
           ) : (
-            <p className="text-gray-600 font-semibold"> ImageGallery</p>
+            <p className="text-gray-600 font-semibold"> Draggable Image Gallery</p>
           )}
         </div>
         <div>

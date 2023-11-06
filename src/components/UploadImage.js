@@ -8,7 +8,7 @@ const UploadImage = () => {
     >
       <div className="w-full h-full flex justify-center items-center flex-col space-y-2 hover:bg-gray-200">
         <img src="images/image-12.png" alt="icon" className="max-w-[35px]" />
-        <div className="text-sm text-gray-500">Add Files</div>
+        <div className="text-sm text-gray-500">Add Images</div>
       </div>
       <input type="file" className="hidden " id="fileUpload" />
     </label>
