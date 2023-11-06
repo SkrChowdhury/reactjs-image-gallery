@@ -1,23 +1,23 @@
-import React, { useEffect, useState } from "react";
-
 import {
   DndContext,
-  closestCenter,
+  DragOverlay,
   MouseSensor,
   TouchSensor,
-  DragOverlay,
+  closestCenter,
   useSensor,
   useSensors,
 } from "@dnd-kit/core";
+import React, { useEffect, useState } from "react";
 import {
-  arrayMove,
   SortableContext,
+  arrayMove,
   rectSortingStrategy,
 } from "@dnd-kit/sortable";
+
 import { Grid } from "./Grid";
-import { SortableImage } from "./SortableImage";
 import { Image } from "./Image";
-import UploadImage from "./UploadImage";
+import { SortableImage } from "./ImageSort";
+import UploadImage from "./AddImages";
 
 const DragAndDrop = ({ images, checked, handleCheck }) => {
   const [items, setItems] = useState(

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { images as data } from "../utils/data";
 
-import DragAndDrop from "./DragAndDrop";
+import DNDComponent from "./DNDComponent";
+import { images as data } from "../utils/data";
 
 const ImageGallery = () => {
   const [images, setImages] = useState([...data]);
@@ -31,27 +31,27 @@ const ImageGallery = () => {
     setSelected([]);
   };
 
-  const totaSelected = selected.length;
+  const totalSelected = selected.length;
 
   return (
     <div className="bg-white rounded-md w-full h-full">
       <div className="w-full flex py-3 px-5 h-16 items-center justify-between">
         <div>
-          {totaSelected > 0 ? (
+          {totalSelected > 0 ? (
             <p className="text-gray-600 font-semibold">
-              {totaSelected} {totaSelected > 1 ? "Files" : "File"} Selected
+              {totalSelected} {totalSelected > 1 ? "Files" : "File"} Selected
             </p>
           ) : (
             <p className="text-gray-600 font-semibold"> Draggable Image Gallery</p>
           )}
         </div>
         <div>
-          {totaSelected > 0 && (
+          {totalSelected > 0 && (
             <button
               onClick={handleDelete}
               className="text-red-500 font-semibold"
             >
-              Delete {totaSelected > 1 ? "Files" : "File"}
+              Delete {totalSelected > 1 ? "Files" : "File"}
             </button>
           )}
         </div>
@@ -59,7 +59,7 @@ const ImageGallery = () => {
       <hr />
 
       <section className="max-w-5xl w-screen p-4">
-        <DragAndDrop
+        <DNDComponent
           images={images}
           checked={selected}
           handleCheck={handleCheck}

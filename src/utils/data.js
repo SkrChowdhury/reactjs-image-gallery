@@ -7,17 +7,17 @@ export const images = [
   {
     id: "2",
     name: "Image 2",
-    img: "images/image-2.webp",
+    img: "images/image-3.webp",
   },
   {
     id: "3",
     name: "Image 3",
-    img: "images/image-3.webp",
+    img: "images/image-2.webp",
   },
   {
     id: "4",
     name: "Image 4",
-    img: "images/image-4.webp",
+    img: "images/image-7.webp",
   },
   {
     id: "5",
@@ -27,22 +27,22 @@ export const images = [
   {
     id: "6",
     name: "Image 6",
-    img: "images/image-6.webp",
+    img: "images/image-9.webp",
   },
   {
     id: "7",
     name: "Image 7",
-    img: "images/image-7.webp",
+    img: "images/image-10.jpeg",
   },
   {
     id: "8",
     name: "Image 8",
-    img: "images/image-8.webp",
+    img: "images/image-4.webp",
   },
   {
     id: "9",
     name: "Image 9",
-    img: "images/image-9.webp",
+    img: "images/image-8.webp",
   },
   {
     id: "11",
@@ -52,6 +52,6 @@ export const images = [
   {
     id: "10",
     name: "Image 10",
-    img: "images/image-10.jpeg",
+    img: "images/image-3.webp",
   },
 ];
