@@ -1,44 +1,53 @@
-# Task for the `Fresher React JS Developers`
-----
+# Draggable Image Gallery
 
-## Objective:
-Create a responsive image gallery using React JS with the following features: reordering, deleting multiple images, and setting a feature image. The gallery should be visually appealing and provide a seamless user experience.
+Image Gallery
 
-## Task Requirements:
-1. **Gallery Layout:**
-   - Implement a grid layout for the image gallery.
-   - The gallery should display images with one feature image larger than the others.
-2. **Sorting:**
-   - Enable reordering functionality to allow users to rearrange the order of images in the gallery.
-   - Implement drag-and-drop functionality or any other intuitive method for reordering.
-3. **Deleting Multiple Images:**
-   - Allow users to select multiple images and delete them.
-   - Provide a clear visual indication of selected images.
-4. **Setting Feature Image:**
-   - Allow users to set a feature image by sorting.
-   - Pretend the first image (from the LTR direction) as the featured image
-   - The feature image should be visually distinct from the other images.
-5. **User Experience:**
-   - Ensure a smooth and responsive user experience.
-   - Implement transitions or animations for a polished look and feel.
-6. **Live Demo:**
-   - Host your React JS image gallery on any platform of your choice.
-   - Share the live URL of your task with us for assessment.
-   - Our verdict would be considered as rejected if your live URL link does not work.
+## Demo link:
 
-## Guidelines:
-- Use React JS for building the image gallery.
-- You are free to use any additional libraries or frameworks as needed.
-- Please do not use any image gallery library
-- Pay attention to code organization, readability, and best practices.
-- Include comments or documentation as necessary for clarity.
-- Ensure responsiveness for various screen sizes.
+Access my site at [dndgallery.devtaijul.com](https://dndgallery.devtaijul.com/),
+FallBack site url [dndgallery.vercel](https://gallery-eight-gules.vercel.app/)
 
+## Table of Content:
 
-## Submission:
-Provide us with the following:
-- The source code of your React JS project through any version control software (Github, Gitlab, etc)
-- A live URL where we can interact with your image gallery.
+- [About The App](#about-the-app)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Approach](#approach)
+- [Status](#status)
+- [Credits](#credits)
+- [License](#license)
 
-## Note:
-Feel free to showcase your creativity and React JS skills in the implementation of the image gallery. We look forward to seeing your work!
+## About The App
+
+Image Gallery is an app that made for a interview project at [Ollyo](https://ollyo.com/) for frontend developer. I was an applicants for this post. That is why I made this application. Though I made this project for Interview but I loved this project idea as my portfolio and doing some crazy task.
+
+## Screenshots
+
+[Screenshot for this project --> ](https://prnt.sc/09IAsOkVSvNJ)
+
+Picture by [Devtaijul](https://devtaijul.com/)
+
+## Technologies
+
+I used `ReactJS`, `css`, `Dnd-kit` and `Tailwind css` .
+
+## Setup
+
+- download or clone the repository
+- run `npm install`
+- run `npm start`
+
+## Approach
+
+I adopted the `Dnd-Kit` for making the gallery drag and drop and flexible animated design.
+
+## Credits
+
+List of contriubutors:
+
+- [Ollyo](https://ollyo.com/)
+
+## License
+
+MIT license @ [author](https://devtaijul.com/)
