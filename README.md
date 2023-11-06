@@ -8,9 +8,6 @@ Create a draggable image gallery using React.js, Tailwind CSS, and the DND (Drag
 - [Technologies](#technologies)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Live Demo
 
